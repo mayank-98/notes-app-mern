@@ -48,7 +48,7 @@ function Home() {
                         <p className="date">{Moment(note.date).format('DD-MM-YYYY')}</p>
                         <div className="card-footer">
                             {note.name}
-                            <Link to={`edit/${note._id}`}>Edit</Link>
+                            <Link className="edit" to={`edit/${note._id}`}>Edit</Link>
                         </div>
                         <button className="close" onClick={() => handleDelete(note._id)} >X</button>
                     </div>

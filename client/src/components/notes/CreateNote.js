@@ -49,7 +49,7 @@ function CreateNote() {
                 <div className="row">
                     <input type="date" onChange={handleChange} id="date" name="date" />
                 </div>
-                <button type="submit">Save</button>
+                <button className="save" type="submit">Save</button>
             </form>
         </div>
     )

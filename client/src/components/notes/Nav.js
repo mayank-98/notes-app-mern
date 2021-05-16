@@ -13,9 +13,9 @@ function Nav({ setIsLogin }) {
                 <h1><Link to="/">MyNotes</Link></h1>
             </div>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/create">Create New Note</Link></li>
-                <li onClick={logoutSubmit}><Link to="/">Logout</Link></li>
+                <li><Link className="link" to="/">Home</Link></li>
+                <li><Link className="link" to="/create">Create New Note</Link></li>
+                <li onClick={logoutSubmit}><Link className="link" to="/">Logout</Link></li>
             </ul>
         </header>
     )
